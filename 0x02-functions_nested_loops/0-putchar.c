@@ -8,7 +8,7 @@ int main(void)
 
 	char k[] = "_putchar";
 
-	for(i = 0; i < 8; i++)
+	for (i = 0; i < 8; i++)
 
 	{
 		_putchar(k[i]);
@@ -16,5 +16,5 @@ int main(void)
 
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
