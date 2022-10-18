@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - prints the word "_putchar"
@@ -10,5 +10,5 @@ int main()
 
 {
 	putchar("_putchar\n");
-	return 0;
+	return (0);
 }
