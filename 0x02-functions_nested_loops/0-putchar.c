@@ -3,13 +3,17 @@
 
 int main(void)
 {
-	int i = 0;
-	char c[] = "_putchar";
-	if(i = 0, i < 5, i++;)
+	int i;
+
+	char k[] = "_putchar";
+
+	for(i = 0; i < 5; i++)
+
 	{
-		_putchar(c[i]);
+		_putchar(k[i]);
 	}
 
-	_putchar("\n");
+	_putchar('\n');
+
 	return(0);
 }
