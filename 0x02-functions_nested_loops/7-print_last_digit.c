@@ -2,28 +2,26 @@
 /**
  * print_last_digit - prints the last digit
  *
- *@p: character used
+ *@c: character used
  *
  * Return: last digit or nothing
  */
 
-int print_last_digit(int p)
+int print_last_digit(int c)
 {
-        int k;
+	int l;
 
-	k = p % 10;
+	l = c % 10;
 
-        if (k < 0)
-		
-        {
-                _putchar(-k + '0');
-                return -k;
-        }
-
-	else
-
+	if (l < 0)
 	{
-		_putchar(k + '0');
-		return k;
+		_putchar(-l + '0');
+		return (-l);
+	}
+	else
+	{
+		_putchar(l + '0');
+		return (l);
 	}
 }
+
