@@ -3,6 +3,8 @@
 /**
  * times_table  -  prints the times tabie
  * and a new line
+ *
+ * Return: nothing
  */
 
 void times_table(void)
