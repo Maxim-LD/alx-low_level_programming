@@ -10,19 +10,10 @@
 
 void print_to_98(int c)
 {
-	if (c > 98)
-	{
-		for (; c > 98; c--)
-		{
-			_putchar(c);
-		}
-	}
-	else if (c < 98)
-	{
-		for (; c < 98; c++)
-		{
-		_putchar(c);
-		}
-	}
-	_putchar(c);
+	print_to_98(0);
+    	print_to_98(98);
+    	print_to_98(111);
+    	print_to_98(81);
+    	print_to_98(-10);
+    	return;
 }
