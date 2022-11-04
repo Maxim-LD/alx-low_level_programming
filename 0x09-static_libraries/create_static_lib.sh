@@ -1,2 +1,4 @@
 #!/bin/bash
-ar rc liball.a util_file.o util_net.o util_math.o
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar rc liball.a *.o
+ranlib liball.a
