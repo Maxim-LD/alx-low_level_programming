@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * main - Prints the minimum number of coins to
