@@ -6,10 +6,9 @@
 *
 * Return: 0 and a new line
 */
-
 int main(void)
 {
-	printf("%s\n", _FILE_);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
